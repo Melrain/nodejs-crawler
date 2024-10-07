@@ -1,3 +1,15 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "semi": [2, "always"],
+    "space-before-function-paren": ["off", "2"],
+    "multiline-ternary": "off",
+    "indent": ["off", 2],
+    "camelcase": "off"
+  }
 }
